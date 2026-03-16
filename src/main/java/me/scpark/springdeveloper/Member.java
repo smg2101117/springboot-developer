@@ -1,4 +1,4 @@
-package me.smg.springdeveloper;
+package me.scpark.springdeveloper;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -18,4 +18,3 @@ public class Member {
     @Column(name = "name", nullable = false)
     private String name;
 }
-

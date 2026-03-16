@@ -1,4 +1,4 @@
-package me.smg.springdeveloper;
+package me.scpark.springdeveloper;
 
 public class Student {
     private String firstname;

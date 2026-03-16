@@ -1,4 +1,4 @@
-package me.smg.springdeveloper;
+package me.scpark.springdeveloper;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,5 +12,8 @@ public class TestService {
 
     public List<Member> getAllMembers() {
         return memberRepository.findAll();
+    }
+    public Member saveMember(Member member) {
+        return memberRepository.save(member);
     }
 }
