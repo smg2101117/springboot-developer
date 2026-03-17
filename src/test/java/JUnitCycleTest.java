@@ -1,6 +1,4 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class JUnitCycleTest {
 
@@ -27,5 +25,13 @@ public class JUnitCycleTest {
     @Test
     public void test3() {
         System.out.println("test3 실행");
+    }
+    @BeforeAll
+    public static void prepareTotal() {
+        System.out.println("모든 테스트 수행 전 준비작업");
+    }
+    @AfterAll
+    static void cleanTotal() {
+        System.out.println("모든 테스트 수행 후 마지막 설겆이 작업");
     }
 }
