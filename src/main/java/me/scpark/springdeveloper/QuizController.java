@@ -1,4 +1,5 @@
 package me.scpark.springdeveloper;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,4 +16,15 @@ public class QuizController {
                 return ResponseEntity.ok().body("ok");
         }
     }
+    @PostMapping
+    public ResponseEntity<String> quiz2(@RequestBody Code code) {
+        switch (code.value()) {
+            case 1:
+                return ResponseEntity.status(404).body("Forbidden");
+            default:
+                return ResponseEntity.ok().body("ok");
+        }
+    }
 }
+
+record Code(int value){}
