@@ -1,0 +1,18 @@
+package me.scpark.springdeveloper;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class QuizController {
+    @GetMapping("/quiz") // http://localhost:0000/quiz?code=1
+    public ResponseEntity<String> quiz(@RequestParam("code") int code) {
+        switch (code) {
+            case 1:
+                return ResponseEntity.created(null).body("Created!");
+            case 2:
+                return ResponseEntity.badRequest().body("Bad Request!");
+            default:
+                return ResponseEntity.ok().body("ok");
+        }
+    }
+}
