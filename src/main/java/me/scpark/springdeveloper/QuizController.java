@@ -16,7 +16,7 @@ public class QuizController {
                 return ResponseEntity.ok().body("ok");
         }
     }
-    @PostMapping
+    @PostMapping("/quiz2")
     public ResponseEntity<String> quiz2(@RequestBody Code code) {
         switch (code.value()) {
             case 1:

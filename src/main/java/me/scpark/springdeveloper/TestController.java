@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.List;
 
 @RestController
@@ -16,9 +17,13 @@ public class TestController {
         List<Member> members = testService.getAllMembers();
         return members;
     }
-    @PostMapping
+    @PostMapping("/test")
     public Member createMember(@RequestBody Member member) {
         return testService.saveMember(member);
+    }
+    @GetMapping("/test2")
+    public String test() {
+        return "Hello World";
     }
 }
 
