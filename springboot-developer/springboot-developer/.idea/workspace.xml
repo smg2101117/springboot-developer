@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f95e0bf2-d5cd-4594-9db0-52f0d052d750" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/HelloworldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/TestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/me/su/springdeveloper/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/me/su/springdeveloper/MemberRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/me/su/springdeveloper/TestControllerExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/me/su/springdeveloper/TestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/me/su/springdeveloper/quizControllerTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "smg2101117"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/smg2101117/springboot-developer.git",
+    "accountId": "26283842-5521-4987-b8ef-03d5a108652d"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3Bmhsy9xwzhtoHy8WFFnQ5Nv0SR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Chapter__5",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f95e0bf2-d5cd-4594-9db0-52f0d052d750" name="변경" comment="" />
+      <created>1775100363385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775100363385</updated>
+      <workItem from="1775100364414" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

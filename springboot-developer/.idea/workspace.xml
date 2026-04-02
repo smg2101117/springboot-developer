@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ba4348-7b36-4f63-9bdf-cd2f05ead348" name="Changes" comment="" />
+    <list default="true" id="87ba4348-7b36-4f63-9bdf-cd2f05ead348" name="Changes" comment="2026-04-02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="89" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -26,6 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$/.." value="Chapter_6" />
         <entry key="$PROJECT_DIR$" value="Su" />
       </map>
     </option>
@@ -40,10 +44,17 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sua-su/SpringBase&quot;,
-    &quot;accountId&quot;: &quot;5d5acb07-4f22-4d1b-899c-128ea3f4a522&quot;
+    &quot;url&quot;: &quot;https://github.com/smg2101117/springboot-developer.git&quot;,
+    &quot;accountId&quot;: &quot;26283842-5521-4987-b8ef-03d5a108652d&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -65,18 +76,35 @@
     "Gradle.MemberRepositoryTest.executor": "Run",
     "Gradle.springboot-developer 빌드.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.SpringBootDeveloperApplication (1).executor": "Run",
     "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
-    "git-widget-placeholder": "<알 수 없음>",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Chapter__5",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources",
+    "last_opened_file_path": "C:/Users/YJU/IdeaProjects/springboot-developer/springboot-developer/springboot-developer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/su/Documents/SpringBaseStudy/springboot-developer/src/main/java/me/su/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,7 +115,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/backup" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemberRepositoryTest (1)">
+  <component name="RunManager" selected="Spring Boot.SpringBootDeveloperApplication (1)">
     <configuration name="JUnitCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,6 +224,13 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="SpringBootDeveloperApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-developer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.scpark.springdeveloper.SpringBootDeveloperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
@@ -213,9 +248,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
         <item itemvalue="Gradle.MemberRepositoryTest (1)" />
         <item itemvalue="Gradle.MemberRepositoryTest" />
-        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
         <item itemvalue="Gradle.JUnitQuiz" />
         <item itemvalue="Gradle.JUnitCycleTest" />
       </list>
@@ -225,6 +260,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -235,10 +271,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772516825942</updated>
+      <workItem from="1774941626734" duration="1886000" />
+      <workItem from="1775094332863" duration="3575000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -249,7 +305,14 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Su" />
+                        <option value="origin/Chapter_5" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
                       </list>
                     </value>
                   </entry>
