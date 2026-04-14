@@ -7,19 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
-
-    @GetMapping("/hello")
-    public String sayHello(@RequestParam(name = "name") String name) {
-        return "반갑습니다, " + name + "님!";
-    }
-
+//    @GetMapping("/hello")
+//    public String hello(){
+//        return "Hello World";
+//    }
     @GetMapping("/student")
-    public Student getStudent(@RequestParam("firstName") String firstName, @RequestParam("lastName") String lastName) {
-        return new Student(firstName, lastName);
+    public Student getStudent(@RequestParam("firstName") String firstName,@RequestParam("lastName") String lastName) {
+        return new Student(firstName,lastName);
+    }
+    @GetMapping("/student/{firstName}/{lastName}")
+    public Student getStudent2(@PathVariable("firstName") String firstName,@PathVariable("lastName") String lastName) {
+        return new Student(firstName,lastName);
     }
 
-    @GetMapping("/student/{firstName}/{lastName}")
-    public Student getStudentByPath(@PathVariable("firstName") String firstName, @PathVariable("lastName") String lastName) {
-        return new Student(firstName, lastName);
-    }
 }

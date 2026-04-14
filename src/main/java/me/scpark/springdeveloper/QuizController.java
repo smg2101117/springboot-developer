@@ -5,26 +5,29 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class QuizController {
-    @GetMapping("/quiz") // http://localhost:0000/quiz?code=1
+    @GetMapping("/quiz") //상세 페이지 코드=1 , 2, 3 ...
     public ResponseEntity<String> quiz(@RequestParam("code") int code) {
         switch (code) {
             case 1:
                 return ResponseEntity.created(null).body("Created!");
             case 2:
-                return ResponseEntity.badRequest().body("Bad Request!");
+                return ResponseEntity.badRequest().body("Bad Request");
             default:
                 return ResponseEntity.ok().body("ok");
         }
+
     }
-    @PostMapping("/quiz2")
+
+    @PostMapping("/quiz")
     public ResponseEntity<String> quiz2(@RequestBody Code code) {
         switch (code.value()) {
             case 1:
-                return ResponseEntity.status(404).body("Forbidden");
+                return ResponseEntity.status(403).body("Forbidden!");
             default:
-                return ResponseEntity.ok().body("ok");
+                return ResponseEntity.ok().body("OK!");
         }
     }
 }
+record Code(int value){
 
-record Code(int value){}
+}

@@ -1,26 +1,44 @@
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class JUnitQuiz {
-
     @Test
-    public void JunitQuizTest(){
-        String name1 = "Hong";
-        String name2 = "Hong";
-        String name3 = "dong";
+    public void junitQuiz1() {
+        String name1 = "홍길동";
+        String name2 = "홍길동";
+        String name3 = "홍길은";
 
-        //모든 변수가 NotNull인지 확인
+        // 모든 변수가 널값인지 아닌지 확인
         assertThat(name1).isNotNull();
         assertThat(name2).isNotNull();
         assertThat(name3).isNotNull();
 
-        assertThat(name1).isNotEqualTo(name2);
+        // name1과 name2가 같은지 확인
+        assertThat(name1).isEqualTo(name2);
 
-        int num1 = 1;
-        int num2 = 2;
-        int num3 = 3;
-        assertThat(num1).isGreaterThan(num2);
-        assertThat(num1).isLessThan(num2);
+        //name1과 name3가 다른지 확인
+        assertThat(name1).isNotEqualTo(name3);
     }
+    @Test
+    public  void junitQuiz2() {
+        int number1 = 15;
+        int number2 = 0;
+        int number3 = -5;
 
+        // ❶ number1은 양수인지 확인
+        assertThat(number1).isPositive();
+
+        // ❷ number2은 0인지 확인
+        assertThat(number2).isZero();
+
+        // 3번은 음수인지 확인
+        assertThat(number3).isNegative();
+
+        //1번은 2번보다 큰지 확인
+        assertThat(number1).isGreaterThan(number2);
+
+        // 3번은 2번보다 작은지 확인
+        assertThat(number3).isLessThan(number2);
+    }
 }
