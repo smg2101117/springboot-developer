@@ -1,3 +1,15 @@
-INSERT INTO member(id, name) VALUES (1, 'name 1')
-INSERT INTO member(id, name) VALUES (2, 'name 2')
-INSERT INTO member(id, name) VALUES (3, 'name 3')
+@Entity
+@Table(name = "member")
+@Getter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+public class Member {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Column
+private String email;
+}

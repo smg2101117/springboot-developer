@@ -1,10 +1,7 @@
 package me.scpark.springdeveloper.domain;
 
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Entity
 @Getter
@@ -23,6 +20,10 @@ public class Article {
 
     @Builder
     public Article(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+    public void update(String title, String content) {
         this.title = title;
         this.content = content;
     }
