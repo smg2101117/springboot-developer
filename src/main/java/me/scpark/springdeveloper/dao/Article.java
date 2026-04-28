@@ -1,12 +1,16 @@
-package me.scpark.springdeveloper.domain;
+package me.scpark.springdeveloper.dao;
+
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor
 public class Article {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false)
@@ -27,4 +31,9 @@ public class Article {
         this.title = title;
         this.content = content;
     }
+
+
+
+
+
 }
