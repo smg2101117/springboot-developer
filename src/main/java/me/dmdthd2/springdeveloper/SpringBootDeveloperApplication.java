@@ -1,4 +1,5 @@
-package me.scpark.springdeveloper;
+package me.dmdthd2.springdeveloper;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -6,5 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootDeveloperApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootDeveloperApplication.class, args);
+
     }
 }
